@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPod Classic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+</head>
+<body>
+    <div class="ipod">
+        <div class="window-controls">
+            <button class="minimize-btn"></button>
+            <button class="close-btn"></button>
+        </div>
+        <div class="screen">
+            <div class="screen-content">
+                <div id="view-container"></div>
+            </div>
+        </div>
+        <div class="click-wheel">
+            <button class="menu-button">MENU</button>
+            <button class="forward-button">▶▶</button>
+            <button class="backward-button">◀◀</button>
+            <button class="play-pause">▶</button>
+            <div class="center-button"></div>
+        </div>
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="renderer.js"></script>
+</body>
+</html>
