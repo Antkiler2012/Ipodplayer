@@ -30,5 +30,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 - Thanks to the Electron framework for making desktop applications easy to build.
 
-## Contact
-For any inquiries, please reach out to [your-email@example.com](mailto:your-email@example.com).
+## instalation
+1. Clone the repository
+Clone the repository using Git:
+
+   ```
+   git clone https://github.com/Antkiler2012/Ipodplayer.git  
+   ```
+2. Install dependencies
+Navigate into the project directory and install the required packages:
+   ```
+   cd Ipodplayer  
+   npm install  
+   ```
+3. Start the app
+Run the application with:
+   ```
+   npm start  
+   ```
