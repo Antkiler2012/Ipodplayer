@@ -291,7 +291,6 @@ body {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s;
     padding: 10px;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
@@ -325,7 +324,6 @@ body {
 .backward-button:active,
 .play-pause:active {
     color: #007AFF;
-    transform: scale(0.9);
 }
 
 .playlists {
