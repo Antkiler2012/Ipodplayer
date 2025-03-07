@@ -1,4 +1,5 @@
 # iPod Player
+![App Screenshot](img_example.png)
 
 ## Overview
 iPod Player is an Electron-based music player that mimics the classic iPod interface. It allows users to import playlists, play music, and manage their music library with a user-friendly interface.
